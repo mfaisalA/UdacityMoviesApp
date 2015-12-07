@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UdacityMoviesApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_sort_by_dialog_title">Pick your units</string>
+    <string name="pref_sort_key" translatable="false">sort</string>
+        <string name="pref_sort_default" translatable="false">popularity.desc</string>
+    <array name="pref_sort_entries">
+        <item>Popularity</item>
+        <item>Highest Rated</item>
+    </array>
+    <array name="pref_sort_entries_values">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+    </array>
+
+</resources>
